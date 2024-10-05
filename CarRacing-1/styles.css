@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light grey background */
+    color: #333; /* Dark text color for readability */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px; /* Limit the width for better readability */
+    margin: auto; /* Center the container */
+    background-color: white; /* White background for content area */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px; /* Padding inside container */
+}
+
+/* Styling for Game Page */
+h1 {
+    text-align: center; /* Center heading */
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+input {
+    margin: 0 10px;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+canvas {
+    border: 2px solid #333;
+}
+
+/* Styling for Rules Page */
+ul {
+    list-style-type: none; /* Remove default list styling */
+    padding-left: 0; /* Remove left padding */
+}
+
+li {
+    background-color: #e9ecef; /* Light grey background for list items */
+    margin: 10px 0; /* Margin between list items */
+    padding: 10px; /* Padding inside list items */
+    border-left: 5px solid #28a745; /* Green left border for emphasis */
+}
+
+a {
+    display: inline-block; /* Make link a block element */
+    margin-top: 20px; /* Space above link */
+    text-align: center; /* Center text in link */
+    padding: 10px 20px; /* Padding inside link */
+    background-color: #28a745; /* Green background for link */
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline from link */
+}
+
+a:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+canvas {
+    border: 2px solid #fcfcfc;
+    background-image: url('race-track.jpg'); /* Ensure this path is correct */
+    background-size: cover; /* Ensures the image covers the entire canvas */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+}

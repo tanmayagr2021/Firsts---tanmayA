@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Racing Game</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Ensure this path is correct -->
+</head>
+<body>
+    <div class="container">
+        <h1>Racing Game</h1>
+        <div class="input-container">
+            <label for="player1Name">Player 1 Name:</label>
+            <input type="text" id="player1Name" placeholder="Enter Player 1 Name">
+            <label for="player2Name">Player 2 Name:</label>
+            <input type="text" id="player2Name" placeholder="Enter Player 2 Name">
+            <button onclick="startGame()">Start Game</button>
+            <button onclick="window.location.href='rules.html'">Rules</button> <!-- Rules button -->
+        </div>
+
+        <canvas id="gameCanvas" width="800" height="400"></canvas>
+    </div>
+
+    <script src="game.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
